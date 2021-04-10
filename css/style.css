@@ -1,0 +1,116 @@
+@import url(./reset.css);
+* {
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.2;
+    text-align: center;
+}
+/*HEADER*/
+header{
+    background-image: url(../images/code.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin-top: 15%;
+    font-size: x-large;
+}
+header>p{
+    text-align: center;
+    font-size: 13px;
+    margin: 10%;
+}
+button{
+    background-color: #333;
+    color: #fff;
+    border: #fff solid 1px;
+    margin-bottom: 8%;
+    font-size: 1.2em;
+    width: 20%;
+    padding: 3% 0;
+}
+/*Web & Application Development*/
+h2{
+    margin: 3% 3%;
+}
+.web_app>p{
+margin: 7% 7%;  
+}
+.web_app{
+    background-color: #fff;
+    color: #333;
+}
+/*MAIN*/
+main{
+    display:flex;
+    justify-content: space-evenly;
+    color: #333;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+main>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #fff;
+    width: 25%;
+    margin:8px 0px;
+}
+main>div>img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+main p{
+    font-size: 0.7em;
+}
+/*We Handle*/
+main+section{
+    background-color: #fff;
+    color: #333;
+    }
+h2{
+    font-size: large;
+    margin: 0;
+}
+/*Cont Us*/
+.our_company{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+   
+}
+.contact_us{
+    background-color:#2690d4;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+footer a{
+    color: #2690d4;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
